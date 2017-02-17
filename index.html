@@ -1,0 +1,207 @@
+<head>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!--Loading my custom css here! ./ means current folder ../ means back a folder-->
+  <link rel="stylesheet" href="./css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row" id="header">
+      <div class="col-sm-4">
+        <h1><a href="#" id="boz">The Boz</a>
+        </h1>
+      </div>
+      <div class="col-sm-5 col-sm-offset-3 col-lg-8 col-lg-offset-0">
+        <form id="eclub-form-header" class="row hidden-xs form-inverse">
+          <p class="col-md-4 col-md-offset-3" id="e-club">Join Our E-Club. <em>Get $10 Off Your Next Visit.</em></p>
+          <div class="col-lg-5 input-group form-group">
+            <input type="email" placeholder="Email Address" class="form-control invalid" id="input1">
+            <span class="input-group-btn">
+              <button class="btn btn-default btn-md" id="header-button" type="submit">Join Now!</button>
+            </span>
+          </div>
+          <div class="email-invalid hide">Please enter a valid email address.</div>
+          <div class="email-valid hide">Email added to E-Club!</div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+      <button id="responsive-menu-button" type="button" class="navbar-toggle">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+    </div>
+    <div id="main-nav" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li id="first">
+          <a href="#">Home</a>
+        </li>
+        <li class="divider"></li>
+        <li id="mn-menu">
+          <a href="#"><span>Menu</span></a>
+        </li>
+        <li class="divider"></li>
+        <li id="mn-locations">
+          <a href="#"><span>Locations</span></a>
+        </li>
+        <li class="divider"></li>
+        <li id="mn-banquets">
+          <a href="#"><span>Banquets</span></a>
+        </li>
+        <li class="divider"></li>
+        <li id="mn-delivery">
+          <a href="#"><span>Delivery</span></a>
+        </li>
+        <li class="divider"></li>
+        <li id="mn-carryout">
+          <a href="#"><span>Carryout</span></a>
+        </li>
+        <li class="divider"></li>
+        <li id="mn-bar-lounge">
+          <a href="#"><span>Bar &amp; Lounge</span></a>
+        </li>
+        <li class="divider"></li>
+        <li id="mn-reservations">
+          <a href="#" class="reservations"><span>Reservations</span></a>
+        </li>
+      </ul>
+    </div>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox" style="position: relative">
+        <div class="item active">
+          <img src="https://image.jimcdn.com/app/cms/image/transf/none/path/sebb22a69dd1475ca/image/ic403a4b70a08dc50/version/1453717719/image.jpg"
+            alt="...">
+          <div class="carousel-caption">
+            <h1 id="slider-1-h1">
+              <span class="line-1" id="Join"> Join us tonight at</span>
+              <span class="line-2" id="Finest"><em>Naples Finest Restaurant</em></span>
+              <span class="line-3" id="open">Open every single day until midnight</span>
+            </h1>
+            <button type="button" class="btn btn-defualt" id="button1">Reserve Your Table</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="F:\Users\moreno\Pictures\Megan-Mumford-Jeffrey_1015-1820x780.jpg" alt="...">
+          <div class="carousel-caption">
+            <h1 id="slider-3-h1">
+              <span class="line-1" id="Feast"> Feast in our gourmet</span>
+              <span class="line-2" id="Salad"><em>Salad Bar</em></span>
+              <span class="line-3" id="open">Open every single day until midnight</span>
+            </h1>
+            <button type="button" class="btn btn-defualt" id="button1">Reserve Your Table</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="F:\Users\moreno\Pictures\Megan-Mumford-Jeffrey_1149-1820x780.jpg" alt "">
+          <div class="carousel-caption">
+            <h1 id="slider-2-h1">
+              <span class="line-1" id="Surprise"> We have a special surprise for meat lovers..</span>
+              <span class="line-2" id="Meat"><em>The Best Meat in Naples</em></span>
+              <span class="line-3" id="open">Open every single day until midnight</span>
+            </h1>
+            <button type="button" class="btn btn-defualt" id="button1">Reserve Your Table</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control " href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphaicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="container-fluid" id="quote-1">
+    <p>"There is no doubt about it. This is the best restaurant in all of Naples."</p>
+    <cite>- Time Magazine</cite>
+    <p>Read the full review HERE</p>
+  </div>
+  <hr>
+  <div class="container-fluid cta-typical-hldr" id="wood">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 odd">
+          <article class="cta-typical equal-heights" style="height: 661px; ">
+            <div class="image">
+              <img src="http://www.maggianos.com/images/uploads/home-ctas/Maggianos-home-banquet.jpg" id="banquet">
+              <header id="header1">Join Our Gourmet Banquet Table Club</header>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 even">
+          <article class="cta-typical equal-heights" style="height: 661px; ">
+            <div class="image">
+              <img src="F:\Users\moreno\Pictures\luxury-restaurants.jpg" id="strawberry">
+              <header id="header2">Check Out The Menu We have Prepared For You Tonight</header>
+              <img src="http://www.maggianos.com/images/uploads/home-ctas/Careers_at_Maggianos_Little_Italy.jpg" id="work">
+              <header id="header3">Interested in Joining the Family?</header>
+              <img src="F:\Users\moreno\Pictures\fine-dining-hero.jpg" id="chef">
+              <header id="header4">Learn How Our Chefs Handcraft Your Deserts</header>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="theclub">
+    <div class="container-fluid">
+      <h1>Join Our E-Club! <em>Get $10 Off Your Next Visit.</em></h1>
+      <p>Get coupons, recipes and much more in our monthly newsletter.</p>
+      <form>
+        <div class="form-group">
+          <div class="input-group">
+            <input type="email" placeholder="Email Address" class="form-control invalid" id="input2">
+            <span class="input-group-btn">
+										<button class="btn  btn-md" id="footer-button" type="submit" >Join Now!</button>
+									</span>
+          </div>
+        </div>
+        <div class="email-invalid hide">Please enter a valid email address.</div>
+        <div class="email-valid hide">Email added to E-Club!</div>
+      </form>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="container-fluid">
+      <ul class="list-inline text-center">
+        <p>The Boz</p>
+        <li><a href="#">Contact Us</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Careers</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Community</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Terms & Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+<!-- Always load javascript after all html and css -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  crossorigin="anonymous"></script>
+<!--Loading my custom js here  ./ means current folder ../ means back a folder -->
+<script src="./js/main.js"></script>

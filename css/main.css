@@ -1,0 +1,314 @@
+#header {
+  background: url("http://www.maggianos.com/assets/img/header-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: black;
+}
+
+
+}
+a {
+  color: black;
+}
+body {
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: white;
+  background-color: white;
+}
+#boz {
+  font-size: 80px;
+  font-family: "Arizonia", "Sentinel SSm A", "Sentinel SSm B", "Palatino", "Bookman Old Style", "Times New Roman", serif;
+  background-image: url(F:\Users\moreno\Pictures\boz.jpg);
+  margin-top: -40px;
+  position: absolute;
+  color: black;
+  letter-spacing: 0.2em;
+}
+#e-club {
+  text-align: right;
+  margin-top: 7px;
+  font-size: 17px;
+  color: #8a0808;
+}
+li.divider {
+  border-right: 1px solid grey;
+  height: 2em;
+  margin-top: 10px;
+  display: inline-block;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #c7c7c7
+}
+ul.nav.navbar-nav {
+  width: 100%;
+}
+.navbar li {
+  margin-left: 3%;
+}
+#first {
+  margin-left: 7%;
+}
+a:hover {
+  text-decoration: none;
+}
+.carousel-inner>.item>img {
+  margin: 0 auto;
+}
+#join {
+  font-size: 40px;
+  line-height: 0.5em;
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Palatino, "Bookman Old Style", "Times New Roman", serif;
+  display: block;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding-bottom: 20%
+}
+#finest {
+  font-size: 55px;
+  line-height: 0.5em;
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Palatino, "Bookman Old Style", "Times New Roman", serif;
+  display: block;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+#open {
+  font-size: 20px;
+  line-height: 0.5em;
+  font-family: "Sentinel SSm A", Sentinel SSm B, "Palatino", "Bookman Old Style", "Times New Roman", serif;
+  position: absolute;
+  right: 37%;
+  top: 43%;
+  text-align: center;
+}
+.carousel .carousel-indicators:not(.tabbed) li.active {
+  background-color: darkslategrey
+}
+#button1 {
+  font-family: 'Berkshire Swash', "cursive", "Times New Roman", "Times", "serif";
+  background-color: white;
+  letter-spacing: .25rem;
+  margin-bottom: 15%;
+  border-color: black;
+  color: black;
+  border-radius: 5px;
+  padding: 1%
+}
+#quote-1 {
+  text-align: center;
+  font-size: 33px;
+  font-weight: 200;
+  line-height: 1.42857143;
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Palatino, "Bookman Old Style", "Times New Roman", serif;
+  color: #bc9a57;
+}
+#feast {
+  font-size: 30px;
+  line-height: 0.5em;
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Palatino, "Bookman Old Style", "Times New Roman", serif;
+  display: block;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding-bottom: 20%
+}
+#Surprise {
+  font-size: 30px;
+  line-height: 0.5em;
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Palatino, "Bookman Old Style", "Times New Roman", serif;
+  display: block;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding-bottom: 20%
+}
+#salad {
+  font-size: 65px;
+  line-height: 0.5em;
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Palatino, "Bookman Old Style", "Times New Roman", serif;
+  display: block;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 34%;
+  top: 20%;
+  text-align: center;
+}
+#Meat {
+  font-size: 55px;
+  line-height: 0.5em;
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Palatino, "Bookman Old Style", "Times New Roman", serif;
+  display: block;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+}
+#quote-1 :last-child {
+  color: #AF2900;
+  font-size: 14px;
+  font-weight: 900;
+  font-family: "Bookman Old Style", "Times New Roman", sans-serif;
+  letter-spacing: .17rem;
+  text-transform: uppercase;
+  -webkit-font-smoothing: subpixel-antialiased;
+  margin-top: 35px;
+}
+#banquet {
+  margin: 5%;
+  width: 750px;
+  border: 2px solid white;
+  overflow: hidden;
+  transform: scale(1.1);
+  margin-left: 5%;
+}
+#work {
+  width: 750px;
+  border: 2px solid white;
+  overflow: hidden;
+  transform: scale(1.1);
+  margin-left: 117%;
+  margin-top: -140.6%;
+}
+#wood {
+  background-image: url(http://www.maggianos.com/assets/img/style-guide-wood-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1400px;
+}
+#strawberry {
+  margin: 5%;
+  width: 750px;
+  border: 2px solid white;
+  overflow: hidden;
+  transform: scale(1.1);
+  margin-left: 5%;
+}
+#chef {
+  width: 750px;
+  border: 2px solid white;
+  overflow: hidden;
+  transform: scale(1.1);
+  margin-left: 117%;
+  margin-top: -68.1%;
+}
+#header1 {
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  font-size: 25px;
+  font-family: "Indie cursive", "cursive", "Times New Roman", "Times", "serif";
+  letter-spacing: .05em;
+}
+#header2 {
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  font-size: 25px;
+  font-family: "Indie cursive", "cursive", "Times New Roman", "Times", "serif";
+  letter-spacing: .05em;
+}
+#header3 {
+  color: white;
+  position: absolute;
+  bottom: auto;
+  left: 113%;
+  bottom: 189%;
+  font-size: 25px;
+  font-family: "Indie cursive", "cursive", "Times New Roman", "Times", "serif";
+  white-space: nowrap;
+  letter-spacing: .05em;
+}
+#header4 {
+  color: white;
+  position: absolute;
+  bottom: 89%;
+  left: 113%;
+  font-size: 25px;
+  font-family: "Indie cursive", "cursive", "Times New Roman", "Times", "serif";
+  white-space: nowrap;
+  letter-spacing: .05em;
+}
+.cta-typical-hldr .col-lg-6:nth-child(even) {
+  margin-bottom: 100%;
+}
+a:hover {
+  color: white;
+}
+a {
+  color: white;
+}
+.cta-typical-hldr :last-child {
+  font-size: 20px;
+  color: yellow;
+}
+#theclub {
+  padding: 50px 0;
+}
+#theclub .container-fluid h1 {
+  color: black;
+  text-align: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+  font-family: "Bookman Old Style", "Times New Roman", serif;
+  color: #bc9a57;
+}
+#theclub .container-fluid p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 200;
+  font-family: "Bookman Old Style", "Times New Roman", serif;
+  color: #bc9a57;
+}
+#input2 {
+  position: absolute;
+  width: 500px;
+  border: 1px solid grey;
+  margin-left: 31%;
+}
+.btn-md {
+  background-color: #690d12;
+  color: white;
+}
+.btn-md:hover {
+  background-color: #690d12;
+  color: white;
+}
+#input1 {
+  margin-right: 50%;
+  position: absolute;
+  width: 430px;
+}
+#footer-button {
+  margin-right: 705px;
+}
+hr {
+  border: 1px solid orange;
+}
+#footer {
+  background-color: #a08248;
+  padding: 1%
+}
+#footer li {
+  margin-top: 10px;
+}
+#footer li.divider {
+  border-right: 1px solid white;
+  height: 1em;
+  margin-top: 5px;
+  margin-right: 9px;
+  display: inline-block;
+}
+#footer p {
+  font-family: "Arizonia", "Sentinel SSm A", "Sentinel SSm B", "Palatino", "Bookman Old Style", "Times New Roman", serif;
+  font-size: 70px;
+  letter-spacing: 0.2em;
+}
